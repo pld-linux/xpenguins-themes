@@ -10,6 +10,7 @@ Source0:	http://xpenguins.seul.org/xpenguins_themes-%{version}.tar.gz
 URL:		http://xpenguins.seul.org/
 Requires:	xpenguins >= 1.9
 BuildArch:	noarch
+Provides:	xpenguins_themes
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
