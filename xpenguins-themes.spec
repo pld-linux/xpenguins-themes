@@ -9,8 +9,8 @@ Source0:	http://xpenguins.seul.org/xpenguins_themes-%{version}.tar.gz
 # Source0-md5:	827445e56d6f6216c43303c12ec2bbc1
 URL:		http://xpenguins.seul.org/
 Requires:	xpenguins >= 1.9
-BuildArch:	noarch
 Provides:	xpenguins_themes
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
@@ -33,7 +33,7 @@ sprawa licencji nie jest jasna.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/xpenguins/themes
 
-cp -ar * $RPM_BUILD_ROOT%{_datadir}/xpenguins/themes
+cp -a * $RPM_BUILD_ROOT%{_datadir}/xpenguins/themes
 
 %clean
 rm -rf $RPM_BUILD_ROOT
