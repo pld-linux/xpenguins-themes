@@ -1,5 +1,5 @@
 Summary:	Some cartoon themes for xpenguins
-Summary(pl):	Motywy do xpenguins
+Summary(pl.UTF-8):   Motywy do xpenguins
 Name:		xpenguins-themes
 Version:	1.0
 Release:	1
@@ -20,10 +20,10 @@ the Pooh". These are distributed separately from the basic xpenguins
 package because they were created from animated gifs found on the web,
 and the licensing/copyright situation is unclear.
 
-%description -l pl
+%description -l pl.UTF-8
 Motywy do xpenguins: "The Simpsons", "Sonic the Hedgehog" i "Winnie
-the Pooh". Te zosta≥y wydzielone z podstawowego pakietu xpenguins,
-poniewaø zosta≥y stworzone z animowanych gifÛw znalezionych w sieci i
+the Pooh". Te zosta≈Çy wydzielone z podstawowego pakietu xpenguins,
+poniewa≈º zosta≈Çy stworzone z animowanych gif√≥w znalezionych w sieci i
 sprawa licencji nie jest jasna.
 
 %prep
