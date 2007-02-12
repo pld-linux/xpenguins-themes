@@ -1,5 +1,5 @@
 Summary:	Some cartoon themes for xpenguins
-Summary(pl.UTF-8):   Motywy do xpenguins
+Summary(pl.UTF-8):	Motywy do xpenguins
 Name:		xpenguins-themes
 Version:	1.0
 Release:	1
